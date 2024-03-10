@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1100px) {
+  
+  #nav-lists{
+   transition: all 0.7s ease-out;
+  }
+  .right-nav{
+    transition: all 0.7s ease-out;
+
+  }
+  .hide-on-sm {
+    display: none;
+  }
+  .burger {
+    display: inline-block;
+  }
+  .hide-on-lg {
+    width: 70vw ;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    margin: auto;
+    text-shadow: rgb(255, 27, 2);
+    padding: 5px 5px;
+    font-size: 1rem;
+  }
+  .carousel-main{
+  width: 100vw;
+  height: 55vw;
+  background-color: brown;
+
+  }
+  .carousel-main-ab{
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(0, 252, 231);
+
+  }
+  .carousel-main-ab h2{
+   display: block;
+   text-align: center;
+   margin: auto;
+  margin-bottom: 5px;
+    }
+  
+  .slide-content h2{ 
+  font-size: 1.5rem;
+  }
+  .story-content{
+    flex-direction: column-reverse;
+  }
+  .story-paras{
+    padding: 2px ;
+    text-align: center;
+  }
+  .meet-founder{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 40px;
+    justify-content: center;
+      }
+}
+
+@media only screen and (min-width: 1100px) {
+  .v-nav {
+    visibility: hidden;
+  }
+  .hide-on-lg {
+    display: none;
+  }
+  .carousel-main{
+    width: 100vw;
+    height: 55vw;
+    background-color: blue;
+    }
+    .carousel-main-ab{
+      width: 100vw;
+      height: 20vw;
+      background-color: rgb(0, 252, 231);
+      }
+  
+
+}
